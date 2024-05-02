@@ -1,0 +1,11 @@
+
+// / {
+// 	leds {
+// // 	// status = "disabled";
+// 		status = "okay";
+// 	};
+
+// 	pwmleds {
+// 		status = "okay";
+// 	};
+// };
