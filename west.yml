@@ -1,0 +1,15 @@
+manifest:
+  remotes:
+    - name: zephyrproject-rtos
+      url-base: https://github.com/zephyrproject-rtos
+
+  projects:
+    - name: zephyr
+      remote: zephyrproject-rtos
+      revision: v3.6.0
+      import: true
+    # - name: l4z
+    #   url: your-git-server
+    #   revision: SOME_SHA_OR_BRANCH_OR_TAG
+  self:
+    path: application
